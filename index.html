@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Library Search</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="#99FF99" text="#0099FF">
+<h2>図書館検索サイト</h2>
+<hr>
+<img src="./resource/tatemono_honya.png">
+<hr>
+<form method="POST" action="cgi-bin/search-library.cgi">
+<table>
+<tr>
+<td>検索する都道府県：</td><td><input type="text" name="pref"></td>
+</tr>
+<tr>
+<td>検索する市：</td><td><input type="text" name="city"></td>
+</tr>
+<tr>
+<td colspan="2">注：市内の区までは絞り込めません。東京については区で検索出来ます。ex. 品川区、横浜市、大阪市</td>
+</tr>
+<tr>
+<td align="right"><input type="submit" value="Search"></td><td align="left"><input type="reset" value="Clear"></td>
+</tr>
+</table>
+</form>
+<hr>
+<table board="1" align="right">
+<tr>
+<td>図書館検索サービス</td>
+<td><a href="https://calil.jp/">カーリル</a></td>
+</tr>
+<tr>
+<td>イラスト素材</td>
+<td><a href="http://www.irasutoya.com/">いらすとや</a></td>
+</tr>
+</body>
+</html>
