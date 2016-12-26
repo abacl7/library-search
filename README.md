@@ -16,4 +16,3 @@
 
 - 実行するにはAPIKEYが必要です。カーリルのサイトで開発者登録をしてキーを発行し、cgi-bin/search-library.cgi の変数 apikey に入力してください。
 
-- resource/tatemono_honya.png の著作権は みふねたかし氏 (http://www.irasutoya.com/) に帰属します。
